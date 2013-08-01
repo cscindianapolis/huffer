@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sue Huffer Photography</title>
+		<meta charset="UTF-8" />
+        <meta name="description" content="Photography for weddings, Bar Mitzvahs, Family Portraits, Senior Photos, and more!" />
+        <meta name="keywords" content="photography, weddings, senior, family, bar mitzvah" />
+		<meta name="author" content="CSCIndianapolis" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/sbimenu.css" />
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=News+Cycle&v1' rel='stylesheet' type='text/css' />
+
+    </head>
+    <body>
+		<div class="container">
+			<div class="header">
+				<h1>Sue Huffer<span>Photography</span></h1>
+			</div>
+						
+			<div class="content">
+				<div id="sbi_container" class="sbi_container">
+					<div class="sbi_panel" data-bg="images/family.jpg">
+						<a href="#" class="sbi_label">Family</a>
+						<div class="sbi_content">
+							<ul>
+								<li><a href="#">Newborns</a></li>
+								<li><a href="#">Children Solo</a></li>
+								<li><a href="#">Sibling Groups</a></li>
+								<li><a href="#">Family Together</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="sbi_panel" data-bg="images/wedding.jpg">
+						<a href="#" class="sbi_label">Wedding</a>
+						<div class="sbi_content">
+							<ul>
+								<li><a href="#">Commitment</a></li>
+								<li><a href="#">Celebration</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="sbi_panel" data-bg="images/barMitzvah.jpg">
+						<a href="#" class="sbi_label">Bar Mitzvah</a>
+						<div class="sbi_content">
+							<ul>
+								<li><a href="#">Temple</a></li>
+								<li><a href="#">Celebration</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="sbi_panel" data-bg="images/senior.jpg">
+						<a href="#" class="sbi_label">Seniors</a>
+					</div>
+				</div>
+			</div>
+			
+			 <div id="sideMenuu">
+			     <ul class="sideMenuu">
+				     <li><a href="prices.html"><h3>Price Ranges</h3></a></li>
+					 <li><a href="about.html"><h3>About Sue</h3></a></li>
+					 <li><a href="testimonials.html"><h3>Testimonials</h3></a></li>
+					 <li><a href="https://www.facebook.com/SueHufferPhotography"><h3>Sue's Facebook</h3></a></li>
+					 <li><a href="contact.html"><h3>Contact Sue</h3></a></li>
+			     </ul>
+			</div>
+			
+			<div class="topbar">
+				<span class="right_ab">
+					<p>.</p> 
+				</span>
+			</div>
+		</div>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/jquery.bgImageMenu.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#sbi_container').bgImageMenu({
+					defaultBg	: 'images/default.jpg',
+					border		: 1,
+					type		: {
+						mode		: 'seqFade',
+						speed		: 250,
+						easing		: 'jswing',
+						seqfactor	: 100
+					}
+				});
+			});
+		</script>
+    </body>
+</html>

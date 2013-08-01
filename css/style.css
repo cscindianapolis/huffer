@@ -1,0 +1,147 @@
+@import url('reset.css');
+body{
+	background-color:#fff;
+	color:#000;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-size:12px;
+	overflow-y:scroll;
+}
+a{
+	color:#f0f0f0;
+	text-decoration:none;
+}
+.clr{
+	clear:both;
+}
+.container {
+	width:100%;
+	margin:0 auto;
+}
+.header{
+	padding-top:10px;
+	position: absolute;
+	top: 5%;
+	left: 5%;
+}
+.more ul{
+	text-transform:uppercase;
+	font-size:13px;
+	font-weight:bold;
+	padding:20px 0px 30px 20px;
+	height:30px;
+}
+.more ul li{
+	float:left;
+	margin:0px 1px;
+}
+.more ul li.selected a,
+.more ul li.selected a:hover{
+	background:#000;
+	color:#fff;
+	text-shadow:none;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px 5px 5px 5px;
+}
+.more ul li a{
+	text-shadow:1px 1px 1px #000;
+	color:#e3cbfe;
+	padding:3px 6px;
+}
+.more ul li a:hover{
+	color:#bda2dc;
+}
+h1{
+	margin:0 0 13px 0;
+	
+	clear:both;
+	font-size:34px;
+	padding:12px;
+	text-shadow:0px 0px 1px #444;
+	color:#000000;
+	font-family:'News Cycle', Georgia, serif;
+}
+h1 span{
+	color:#990066;
+	text-align:right;
+	font-size:25px;
+	padding:0 10px;
+}
+h2{
+	float:right;
+	color:#bda2dc;
+	padding:30px 20px 0 0;
+}
+h3{
+    margin:0 0 13px 0;
+	float:left;
+	clear:both;
+	font-size:30px;
+	padding:9px;
+	color:#000000;
+	font-family:'Comic Sans MS', Georgia;
+}
+.content{
+	width:100%;
+	position:relative;
+	margin:20px 0 0 0;
+	clear:both;
+}
+/* Footer Style */
+.topbar{
+	position:relative;
+	width:100%;
+	height:25px;
+	line-height:24px;
+	bottom:0;
+	font-size:13px;
+	background:#000;
+	opacity:0.7;
+	text-transform:uppercase;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	z-index:4;
+}
+.topbar a{
+	padding:5px 10px;
+	letter-spacing:1px;
+	text-shadow:1px 1px 1px #000;
+	color:#ddd;
+	text-align:right;
+}
+.topbar a:hover{
+	color:#fff;
+}
+.topbar a span{
+	font-weight:bold;
+}
+.topbar span.right_ab{
+	position:absolute;
+	right:4px;
+}
+.bottomSpacing {
+    height: 20px;
+}
+
+sidemenu{
+margin:0 0 13px 0;
+	float:left;
+	clear:both;
+	font-size:20px;
+	padding:12px;
+	color:#000000;
+	font-family:'Comic Sans MS', Georgia;
+}
+.sideMenuu {
+    position: absolute;
+	top: 52%;
+	left: 12%;
+	color:#000;
+	
+	width: 275px;
+	line-height:15px;
+	bottom:0;
+	font-size:20px;
+	font-family: 'Comic Sans MS';
+	
+	
+}
